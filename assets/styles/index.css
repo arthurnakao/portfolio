@@ -20,15 +20,18 @@ body {
 }
 
 .about__photo {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: red;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .about__content {
     font-size: 1.5em;
     color: #FAFAFA;
+    text-align: center;
+    margin: 0 10px 0 10px;
 }
 
 .about__seta-baixo {
@@ -49,9 +52,11 @@ body {
     transform-origin: 100% 0;
 }
 
+/*
 .about__seta-baixo:hover::before {
     border-color: blue;
 }
+*/
 
 
 
