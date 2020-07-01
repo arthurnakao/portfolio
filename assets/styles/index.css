@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about__photo {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.about__content {
+    font-size: 1.5em;
+    color: #FAFAFA;
+}
+
+.about__seta-baixo {
+	width: 6vmin;
+	height: 6vmin;
+	box-sizing: border-box;
+    transform: rotate(-45deg);
+}
+
+.about__seta-baixo::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-width: 0 0 .5em .5em;
+    border-style: solid;
+    border-color: #fafafa;
+    display: block;
+    transform-origin: 100% 0;
+}
+
+.about__seta-baixo:hover::before {
+    border-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.project--dark {
+    background-color: #222222;
+    color: #FAFAFA;
+}
+
+.project--light {
+    background-color: #FAFAFA;
+    color: #222222;
+}
+
+.project__title {
+    font-size: 3em;
+}
+
+.project__image {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+    background-color: red;
+    margin: 30px;
+}
+
+.project__description {
+    font-size: 1.25em;
+    max-width: 70%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.project__button {
+    margin-top: 20px;
+}
