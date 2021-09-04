@@ -3,20 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arthur Nakao</title>
+    <title>Portfólio Arthur Nakao</title>
     <link rel="stylesheet" href="./assets/styles/reset.css">
     <link rel="stylesheet" href="./assets/styles/index.css">
 </head>
 <body>
+    <div class="header">
+        <a class="header__link" href="https://medium.com/@arthur.nakao">Medium</a>
+        <a class="header__link" href="https://www.linkedin.com/in/arthur-nakao-561700187/">Linkedin</a>
+    </div>
+
     <div class="about">
 
-        <img class="about__photo" src="" alt="">
+
+        <img class="about__photo" src="./assets/images/FotoPerfil.png" alt="">
 
         <p class="about__content">
             Desenvolvedor Web apaixonado pelo que faz
         </p>
         
         <div class="about__seta-baixo"></div>
+    </div>
+
+    <div class="project project--light">
+        <h2 class="project__title">Portfólio</h2>
+        <img class="project__image" src="./assets/images/Project_Portfolio.png" alt="">
+        <p class="project__description">
+            Esse projeto foi desenvolvido para expor todos os projetos feitos por mim. A ideia é que seja um projeto bem simples e minimalista, apenas apresentando o que tem de melhor e descrevendo exatamente o que tem por trás de cada projeto feito (tecnologias usadas, principais dificuldades e etc). O Projeto também foi utilizado para dar início aos meus estudos de boas práticas em CSS, a partir da aplicação da metodologia BEM de organização do código.
+        </p>
+        <h3>Tecnologias</h3>
+        <ul class="project__tecnologies">
+            <li class="project__tecnology--dark">HTML5</li>
+            <li class="project__tecnology--dark">CSS3</li>
+            <li class="project__tecnology--dark">JavaScript</li>
+        </ul>
+        <a class="project__button" target="_blank" href="https://arthurnakao.github.io/portfolio/">Abrir Projeto</a>
+    </div>
+
+    <div class="project project--dark">
+        <h2 class="project__title">Campo Minado</h2>
+        <img class="project__image" src="./assets/images/Project_Minersweeper.png" alt="">
+        <p class="project__description">
+            Esse projeto foi desenvolvido no meu tempo livre. Inicialmente, a ideia era desenvolver um campo minado apenas em Javascript. A partir disso, resolvi aprender uma nova tecnologia para Back-End (o NodeJS) e acabei utilizando-o também em minha aplicação criando um servidor que gerencia cada clique do jogadores, as bombas e tudo mais...
+        </p>
+        <h3>Tecnologias</h3>
+        <ul class="project__tecnologies">
+            <li class="project__tecnology--light">HTML5</li>
+            <li class="project__tecnology--light">CSS3</li>
+            <li class="project__tecnology--light">JavaScript</li>
+            <li class="project__tecnology--light">NodeJS</li>
+        </ul>
+        <a class="project__button" target="_blank" href="http://minersweepergamefront.herokuapp.com/">Abrir Projeto</a>
+    </div>
+
+    <div class="project project--light">
+        <h2 class="project__title">Campo Minado Multiplayer</h2>
+        <img class="project__image" src="./assets/images/Project_MinersweeperMultiplayer.png" alt="">
+        <p class="project__description">
+            Versão 2.0 do Campo Minado mostrado acima. Nessa versão, o jogo funciona no modo multiplayer em tempo real. Utilizei esse projeto para aprender sobre salas no Socket.io (NodeJS) para fazer o back-end.
+        </p>
+        <h3>Tecnologias</h3>
+        <ul class="project__tecnologies">
+            <li class="project__tecnology--dark">HTML5</li>
+            <li class="project__tecnology--dark">CSS3</li>
+            <li class="project__tecnology--dark">JavaScript</li>
+            <li class="project__tecnology--dark">NodeJS</li>
+        </ul>
+        <a class="project__button" target="_blank" href="https://campo-minado-front.herokuapp.com">Abrir Projeto</a>
     </div>
 
 </body>
