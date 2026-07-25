@@ -2,7 +2,7 @@ const buildId = new URL(self.location.href).searchParams.get('buildId') || 'dev'
 const CACHE_VERSION = `portfolio-pwa-${buildId}`
 const APP_SHELL_CACHE = `shell-${CACHE_VERSION}`
 const RUNTIME_CACHE = `runtime-${CACHE_VERSION}`
-const PRECACHE_URLS = ["./","./index.html","./manifest.webmanifest","./logo.ico","./apple-touch-icon.png","./icon-192.png","./icon-512.png","./assets/index-rUIeWCLx.js","./assets/index-Dl90evj7.css"]
+const PRECACHE_URLS = ["./","./index.html","./manifest.webmanifest","./logo.ico","./apple-touch-icon.png","./icon-192.png","./icon-512.png","./assets/index-Bs7Ifckd.js","./assets/CartoonProfile-PnEScOxJ.png","./assets/index-Dl90evj7.css"]
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
